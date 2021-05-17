@@ -1,0 +1,172 @@
+<!--
+  ~ /*
+  ~  * Copyright 2021 UBICUA.
+  ~  *
+  ~  * Licensed under the Apache License, Version 2.0 (the "License");
+  ~  * you may not use this file except in compliance with the License.
+  ~  * You may obtain a copy of the License at
+  ~  *
+  ~  *      http://www.apache.org/licenses/LICENSE-2.0
+  ~  *
+  ~  * Unless required by applicable law or agreed to in writing, software
+  ~  * distributed under the License is distributed on an "AS IS" BASIS,
+  ~  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~  * See the License for the specific language governing permissions and
+  ~  * limitations under the License.
+  ~  */
+  -->
+
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="FullscreenTheme" parent="AppTheme">
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="metaButtonBarStyle">?android:attr/buttonBarStyle</item>
+        <item name="metaButtonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <!-- Text -->
+    <style name="Text" >
+        <item name="android:fontFamily">@font/opensans_reg</item>
+    </style>
+
+    <style name="Text.Title" >
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/c3</item>
+        <item name="android:fontFamily">@font/opensans_bold</item>
+    </style>
+
+    <style name="Text.Title.1">
+        <item name="android:textSize">22sp</item>
+        <item name="android:fontFamily">@font/opensans_semibold</item>
+    </style>
+
+    <style name="Text.Title.2">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/opensans_semibold</item>
+    </style>
+
+    <style name="Text.Title.3">
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">@font/opensans_semibold</item>
+    </style>
+
+    <style name="Text.Title.4">
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">@font/opensans_semibold</item>
+    </style>
+
+    <style name="Text.Body">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/c6</item>
+    </style>
+
+    <style name="Text.Body.1">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="Text.Body.2">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Text.Body.3">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="Text.Body.4">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/c7</item>
+    </style>
+
+    <style name="Text.Info">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#333333</item>
+    </style>
+
+    <style name="Text.ListHeader">
+        <item name="android:textColor">@color/c5</item>
+        <item name="android:fontFamily">@font/opensans_bold</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Text.Footer">
+        <item name="android:textColor">@color/c7</item>
+    </style>
+
+    <style name="Text.Footer.1">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/opensans_semibold</item>
+    </style>
+
+    <style name="Text.Footer.2">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/opensans_semibold</item>
+    </style>
+
+    <style name="Text.Footer.3">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="Text.Footer.4">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/opensans_semibold</item>
+        <item name="android:textColor">@color/c3</item>
+    </style>
+
+    <style name="Text.Normal">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/c3</item>
+        <item name="android:fontFamily">@font/opensans_reg</item>
+        <item name="android:background">@drawable/rounded_normal_background</item>
+    </style>
+
+    <!-- Button -->
+    <style name="RoundedButton" parent="@style/Widget.AppCompat.Button">
+        <item name="android:background">@drawable/rounded_button_background_light</item>
+        <item name="android:fontFamily">@font/opensans_semibold</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/c1</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="RoundedButton.Dark">
+        <item name="android:background">@drawable/rounded_button_background_dark</item>
+        <item name="android:textColor">@color/c1</item>
+    </style>
+
+    <style name="RoundedButton.Light">
+        <item name="android:background">@drawable/rounded_button_background_light</item>
+        <item name="android:textColor">@color/c1</item>
+    </style>
+
+    <style name="RoundedButton.Red">
+        <item name="android:background">@drawable/rounded_button_background_grey</item>
+        <item name="android:textColor">@color/c9</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="RoundedButton.NoBorder">
+        <item name="android:background">@drawable/rounded_button_background_no_border</item>
+        <item name="android:textColor">@color/c3</item>
+    </style>
+
+
+</resources>
