@@ -1,5 +1,5 @@
 # SSIDO Client
-The SSIDO edge client implemented as a Android app
+SSIDO client implemented as Android app
 
 ## Description
 
