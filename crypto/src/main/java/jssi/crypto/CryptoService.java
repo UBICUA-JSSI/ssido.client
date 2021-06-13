@@ -15,7 +15,6 @@
  *  * limitations under the License.
  *
  */
-
 package jssi.crypto;
 
 import android.util.Base64;
@@ -43,7 +42,7 @@ import org.libsodium.jni.SodiumException;
 
 /**
  *
- * @author ITON Solutions
+ * @author UBICUA
  */
 public class CryptoService {
     
