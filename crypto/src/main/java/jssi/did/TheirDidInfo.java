@@ -15,12 +15,11 @@
  *  * limitations under the License.
  *
  */
-
 package jssi.did;
 
 /**
  *
- * @author ITON Solutions
+ * @author UBICUA
  */
 public class TheirDidInfo {
     public String did;
