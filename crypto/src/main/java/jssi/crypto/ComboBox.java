@@ -15,12 +15,11 @@
  *  * limitations under the License.
  *
  */
-
 package jssi.crypto;
 
 /**
  *
- * @author ITON Solutions
+ * @author UBICUA
  */
 public class ComboBox {
     public String cipher;
