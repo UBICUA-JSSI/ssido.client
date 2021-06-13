@@ -15,7 +15,6 @@
  *  * limitations under the License.
  *
  */
-
 package jssi.crypto.algorithm;
 
 import java.util.Map;
@@ -33,7 +32,7 @@ import org.libsodium.jni.SodiumException;
 
 /**
  *
- * @author ITON Solutions
+ * @author UBICUA
  */
 public class Ed25519 implements ICrypto{
 
