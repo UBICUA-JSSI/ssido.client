@@ -15,7 +15,6 @@
  *  * limitations under the License.
  *
  */
-
 package jssi.crypto;
 
 import androidx.annotation.Nullable;
@@ -23,7 +22,7 @@ import jssi.crypto.algorithm.ICrypto.CryptoType;
 
 /**
  *
- * @author ITON Solutions
+ * @author UBICUA
  */
 public class KeyInfo {
     
