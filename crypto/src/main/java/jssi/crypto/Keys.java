@@ -15,7 +15,6 @@
  *  * limitations under the License.
  *
  */
-
 package jssi.crypto;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
@@ -23,7 +22,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 /**
  *
- * @author ITON Solutions
+ * @author UBICUA
  */
 public class Keys {
 
