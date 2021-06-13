@@ -15,14 +15,13 @@
  *  * limitations under the License.
  *
  */
-
 package jssi.crypto.algorithm;
 
 import jssi.crypto.algorithm.ICrypto.CryptoType;
 
 /**
  *
- * @author ITON Solutions
+ * @author UBICUA
  */
 public class CryptoFactory {
 
