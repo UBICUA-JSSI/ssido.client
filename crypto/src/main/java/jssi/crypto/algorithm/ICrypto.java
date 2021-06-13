@@ -15,7 +15,6 @@
  *  * limitations under the License.
  *
  */
-
 package jssi.crypto.algorithm;
 
 import jssi.crypto.CryptoException;
@@ -24,7 +23,7 @@ import org.libsodium.jni.SodiumException;
 
 /**
  *
- * @author ITON Solutions
+ * @author UBICUA
  */
 public interface ICrypto {
     
