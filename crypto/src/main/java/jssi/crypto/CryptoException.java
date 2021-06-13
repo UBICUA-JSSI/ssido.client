@@ -19,7 +19,7 @@ package jssi.crypto;
 
 /**
  *
- * @author ITON Solutions
+ * @author UBICUA
  */
 public class CryptoException extends Exception{
     
