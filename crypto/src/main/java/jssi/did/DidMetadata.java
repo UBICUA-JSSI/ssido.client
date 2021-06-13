@@ -15,11 +15,10 @@
  *  * limitations under the License.
  *
  */
-
 package jssi.did;
 
 /**
- * Created by ITON Solutions on 28/09/2019.
+ * Created by UBICUA
  */
 public class DidMetadata {
 
